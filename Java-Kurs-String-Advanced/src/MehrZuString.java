@@ -9,7 +9,7 @@ public class MehrZuString {
 		// Merke: String erzeugt oder veraendert -> Es wird immer in \
 		// neuer String erstellt, weil String immutable(unveraenderbar) sind
 				
-		// Merke: StringBuffer erzeugt oder veraendert -> Es ist immer das selbe Objekt
+		// Merke: StringBuffer / StringBuilder erzeugt oder veraendert -> Es ist immer das selbe Objekt
 		
 		String string = "Hallo"; // Nennt man auch erstellen durch einen String Literal
 		String string2 = new String("Hi");
